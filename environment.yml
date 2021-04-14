@@ -1,0 +1,9 @@
+name: uproot_and_root
+channels:
+  - conda-forge
+dependencies:
+  - python
+  - jupyterlab # Interactive environment
+  - root       # Conda-Forge ROOT
+  - uproot     # Can be mixed with other Scikit-HEP packages
+  
